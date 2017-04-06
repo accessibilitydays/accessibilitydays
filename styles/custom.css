@@ -1,0 +1,34 @@
+/* *************************************** */
+/* * logos                               * */
+/* *************************************** */
+
+.mainLogo {     
+    padding: 0px;   
+    max-height:120px;
+}
+
+.hdLogo {    
+    margin-right: 10px;       
+}
+
+.organizer-logo {    
+    max-width: 300;       
+}
+
+
+/* *************************************** */
+/* * agenda                              * */
+/* *************************************** */
+
+.accordion-dark-level1 .ui-state-default {    
+    background: #444444 !important;    
+}
+
+.accordion-dark-level2 .ui-state-default {    
+    background: #333333 !important;    
+}
+
+.agenda-day-label {
+    color: #3366FF;
+    font-weight: bold;
+}

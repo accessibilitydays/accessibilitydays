@@ -1,0 +1,27 @@
+/*Core stylesheets*/
+@import url("../vendor/bootstrap/3.3.1/css/bootstrap.css");
+@import url("../vendor/font-awesome/font-awesome.css");
+@import url("../vendor/globalassets/styles/adobeBlank/adobe-blank.css");
+@import url("../vendor/jqueryui/themes/base/jquery-ui.css");
+/*External library stylesheets*/
+@import url("../vendor/chart/1.0.1/css/charts.css");
+@import url("../vendor/datatables/1.9.1/css/datatables.css");
+@import url("../vendor/datepicker/v6/css/datepicker.css");
+@import url("../vendor/jquery.customInput/css/enhanced.css");
+@import url("../vendor/jquery.collapsible/1.0/css/collapsible.css");
+@import url("../vendor/rwdTable/1.0/css/rwdtable-core.css");
+@import url("../vendor/share/4.0/styles/sharewidget-4.0.css");
+/*Global Assets stylesheets*/
+@import url("../vendor/globalassets/styles/widgets/alerts.css");
+@import url("../vendor/globalassets/styles/widgets/buttons.css");
+@import url("../vendor/globalassets/styles/widgets/tooltips.css");
+@import url("../vendor/globalassets/styles/widgets/carousel.css");
+@import url("../vendor/globalassets/styles/widgets/modalstyles.css");
+@import url("../vendor/globalassets/styles/breadcrumb.css");
+
+@import url("../vendor/back-to-top/back-to-top.css");
+
+
+
+
+

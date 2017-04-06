@@ -1,0 +1,43 @@
+
+
+.scrollToTop{
+
+	padding:10px; 
+	text-align:center; 
+	background-color:
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+    bottom:60px;
+	right:40px;
+	display:none;
+    background:rgba(51, 102, 255, 0.8) url(img/cd-top-arrow.svg) no-repeat center 50%;
+    z-index: 1;
+	
+}
+.scrollToTop:hover{
+	background-color:rgba(51, 102, 255, 1);
+}
+
+
+@media only screen and (max-width: 500px) {
+    .scrollToTop {
+        width:35px; 
+        height:35px;
+    }
+}
+
+@media only screen and (min-width: 501px) and  (max-width: 1099px) {
+    .scrollToTop {
+        width:55px; 
+        height:55px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .scrollToTop {
+        width:70px; 
+        height:70px;
+    }
+}

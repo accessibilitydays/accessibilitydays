@@ -1,0 +1,41 @@
+#slideout {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+    z-index: 1000;
+}
+#slideout_inner {
+  position: fixed;
+  top: 40px;
+  left: -250px;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+ background-color: #fff;
+    border:1px solid #777;
+    width:250px;
+    padding: 20px;
+}
+
+#slideout_inner ul li {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    margin-bottom: 3px;
+}
+
+#slideout_inner ul  {
+    padding-left: 0px;
+}
+
+.transparentButton {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}

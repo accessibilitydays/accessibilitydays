@@ -1,0 +1,10 @@
+
+/* *************************************** */
+/* *   Style Switcher: bigger font size  * */
+/* *************************************** */
+
+@import url("style.css");
+
+body {
+    font-size:1.9em;
+}
