@@ -35,7 +35,7 @@ if (sourceMenu == "accessible+") {
     }
 }
 
-var accessibilityIconStr = (accessibilitySign === "classic") ? 'http://shakedwebdesign.com/plugins/accessibility-menu/accessibility.png' : 'http://shakedwebdesign.com/plugins/accessibility-menu/access.png';
+var accessibilityIconStr = (accessibilitySign === "classic") ? 'images/accessibility.png' : 'images/access.png';
 
 if (debugMode) console.log("loaded with language: " + lang);
 
