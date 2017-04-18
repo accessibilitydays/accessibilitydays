@@ -35,7 +35,7 @@ if (sourceMenu == "accessible+") {
     }
 }
 
-var accessibilityIconStr = (accessibilitySign === "classic") ? 'images/accessibility.png' : 'images/access.png';
+var accessibilityIconStr = (accessibilitySign === "classic") ? 'vendor/accessibility-menu/accessibility.png' : 'vendor/accessibility-menu/access.png';
 
 if (debugMode) console.log("loaded with language: " + lang);
 
@@ -102,7 +102,7 @@ function prepMenu() {
 
             break;
         case "es_ES":
-            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='http://shakedwebdesign.com/plugins/accessibility-menu/accessibility.png' alt='Icono del menú Accesibilidad' role='navigation' title='Menú accesibilidad'/></button>";
+            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='vendor/accessibility-menu/accessibility.png' alt='Icono del menú Accesibilidad' role='navigation' title='Menú accesibilidad'/></button>";
             menuHTML += "<div id='slideout_inner'>";
             menuHTML += "<ul class='ltr'>";
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnTextSizeOn' onclick='setTextSize(true);'><i class='fa fa-text-height' aria-hidden='true'></i>&nbsp;&nbsp;letra grande</button>";
@@ -117,7 +117,7 @@ function prepMenu() {
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnLinksOff' onclick='ToggleUnderlineLinks(false);'><i class='fa fa-underline' aria-hidden='true'></i>&nbsp;&nbsp;enlaces normales</button>";
             break;
         case "pt_PT":
-            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='http://shakedwebdesign.com/plugins/accessibility-menu/accessibility.png' alt='ícone do menu de acessibilidade' role='navigation' title='menu de acessibilidade'/></button>";
+            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='vendor/accessibility-menu/accessibility.png' alt='ícone do menu de acessibilidade' role='navigation' title='menu de acessibilidade'/></button>";
             menuHTML += "<div id='slideout_inner'>";
             menuHTML += "<ul class='ltr'>";
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnTextSizeOn' onclick='setTextSize(true);'><i class='fa fa-text-height' aria-hidden='true'></i>&nbsp;&nbsp;letra grande</button>";
@@ -132,7 +132,7 @@ function prepMenu() {
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnLinksOff' onclick='ToggleUnderlineLinks(false);'><i class='fa fa-underline' aria-hidden='true'></i>&nbsp;&nbsp;ligações normais</button>";
             break;
         case "ja_JP":
-            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='http://shakedwebdesign.com/plugins/accessibility-menu/accessibility.png' alt='アクセシビリティメニューアイコン' role='navigation' title='アクセシビリティメニュー'/></button>";
+            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='vendor/accessibility-menu/accessibility.png' alt='アクセシビリティメニューアイコン' role='navigation' title='アクセシビリティメニュー'/></button>";
             menuHTML += "<div id='slideout_inner'>";
             menuHTML += "<ul class='ltr'>";
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnTextSizeOn' onclick='setTextSize(true);'><i class='fa fa-text-height' aria-hidden='true'></i>&nbsp;&nbsp;大きなフォント</button>";
@@ -147,7 +147,7 @@ function prepMenu() {
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnLinksOff' onclick='ToggleUnderlineLinks(false);'><i class='fa fa-underline' aria-hidden='true'></i>&nbsp;&nbsp;デフォルトのリンク</button>";
             break;
         case "it_IT":
-            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='http://shakedwebdesign.com/plugins/accessibility-menu/accessibility.png' alt='Icona Accessibilità Menu' role='navigation' title='Accessibilità Menu'/></button>";
+            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='vendor/accessibility-menu/accessibility.png' alt='Icona Accessibilità Menu' role='navigation' title='Accessibilità Menu'/></button>";
             menuHTML += "<div id='slideout_inner'>";
             menuHTML += "<ul class='ltr'>";
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnTextSizeOn' onclick='setTextSize(true);'><i class='fa fa-text-height' aria-hidden='true'></i>&nbsp;&nbsp;font grande</button>";
@@ -162,7 +162,7 @@ function prepMenu() {
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnLinksOff' onclick='ToggleUnderlineLinks(false);'><i class='fa fa-underline' aria-hidden='true'></i>&nbsp;&nbsp;collegamenti predefiniti</button>";
             break;
         case "fr_FR":
-            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='http://shakedwebdesign.com/plugins/accessibility-menu/accessibility.png' alt='Accessibilité Menu icon' role='navigation' title='Accessibilité Menu'/></button>";
+            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='vendor/accessibility-menu/accessibility.png' alt='Accessibilité Menu icon' role='navigation' title='Accessibilité Menu'/></button>";
             menuHTML += "<div id='slideout_inner'>";
             menuHTML += "<ul class='ltr'>";
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnTextSizeOn' onclick='setTextSize(true);'><i class='fa fa-text-height' aria-hidden='true'></i>&nbsp;&nbsp;grande police</button>";
@@ -177,7 +177,7 @@ function prepMenu() {
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnLinksOff' onclick='ToggleUnderlineLinks(false);'><i class='fa fa-underline' aria-hidden='true'></i>&nbsp;&nbsp;liens par défaut</button>";
             break;
         case "de_DE":
-            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='http://shakedwebdesign.com/plugins/accessibility-menu/accessibility.png' alt='Barrierefreiheit Menü Icon' role='navigation' title='Erreichbar Menü'/></button>";
+            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='vendor/accessibility-menu/accessibility.png' alt='Barrierefreiheit Menü Icon' role='navigation' title='Erreichbar Menü'/></button>";
             menuHTML += "<div id='slideout_inner'>";
             menuHTML += "<ul class='ltr'>";
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnTextSizeOn' onclick='setTextSize(true);'><i class='fa fa-text-height' aria-hidden='true'></i>&nbsp;&nbsp;große Schrift</button>";
@@ -192,7 +192,7 @@ function prepMenu() {
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnLinksOff' onclick='ToggleUnderlineLinks(false);'><i class='fa fa-underline' aria-hidden='true'></i>&nbsp;&nbsp;Standard Links</button>";
             break;
         case "zh_CN":
-            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='http://shakedwebdesign.com/plugins/accessibility-menu/accessibility.png' alt='辅助功能菜单图标' role='navigation' title='辅助菜单'/></button>";
+            menuHTML = "<button class='transparentButton' onclick='toggleAccessibilityMenu()'><img class='accessibilityimage' src='vendor/accessibility-menu/accessibility.png' alt='辅助功能菜单图标' role='navigation' title='辅助菜单'/></button>";
             menuHTML += "<div id='slideout_inner'>";
             menuHTML += "<ul class='ltr'>";
             menuHTML += "<button class='accessibilityMenuButton alignLeft' id='btnTextSizeOn' onclick='setTextSize(true);'><i class='fa fa-text-height' aria-hidden='true'></i>&nbsp;&nbsp;大字体</button>";
@@ -214,7 +214,7 @@ function prepMenu() {
     if (sourceMenu != "accessible+") {
 
         menuHTML += "<div style='text-align:center;'>";
-        menuHTML += "<a href='http://sharon.shaked.me/?utm_source=Accessibility%20Menu&utm_medium=%20Accessibility%20Menu&utm_term=%20Accessibility%20Menu&utm_content=%20Accessibility%20Menu&utm_campaign=menu%20logo' aria-label='link to accessibility menu creator website - Sharon Shaked Software Services' title='Sharon Shaked Software Services' target='_blank'><img src='http://shakedwebdesign.com/plugins/accessibility-menu/boxs-only.png' class='myLogo'></a>";
+        menuHTML += "<a href='http://sharon.shaked.me/?utm_source=Accessibility%20Menu&utm_medium=%20Accessibility%20Menu&utm_term=%20Accessibility%20Menu&utm_content=%20Accessibility%20Menu&utm_campaign=menu%20logo' aria-label='link to accessibility menu creator website - Sharon Shaked Software Services' title='Sharon Shaked Software Services' target='_blank'><img src='vendor/accessibility-menu/boxs-only.png' class='myLogo'></a>";
         menuHTML += "</div>";
     }
     menuHTML += "</div>";
@@ -223,16 +223,16 @@ function prepMenu() {
     $("#slideout").html(menuHTML);
 
 
-    var cssText = "<link href='http://shakedwebdesign.com/plugins/accessibility-menu/yellow-links.css' title='yellow' type='text/css' rel='stylesheet' disabled='true'/>";
-    cssText += "<link href='http://shakedwebdesign.com/plugins/accessibility-menu/underline-links.css' title='underline' type='text/css' rel='stylesheet' disabled='true'/>";
-    cssText += "<link href='http://shakedwebdesign.com/plugins/accessibility-menu/grayscale.css' title='grayscale' type='text/css' rel='stylesheet' disabled='true'/>";
+    var cssText = "<link href='vendor/accessibility-menu/yellow-links.css' title='yellow' type='text/css' rel='stylesheet' disabled='true'/>";
+    cssText += "<link href='vendor/accessibility-menu/underline-links.css' title='underline' type='text/css' rel='stylesheet' disabled='true'/>";
+    cssText += "<link href='vendor/accessibility-menu/grayscale.css' title='grayscale' type='text/css' rel='stylesheet' disabled='true'/>";
 
     if (sourceMenu == "accessible+") {
-        cssText += "<link href='http://shakedwebdesign.com/plugins/accessibility-menu/night.css' title='contrast' type='text/css' rel='stylesheet' disabled='true'/>";
-        cssText += "<link href='http://shakedwebdesign.com/plugins/accessibility-menu/biggest.css' title='textsize' type='text/css' rel='stylesheet' disabled='true'/>";
+        cssText += "<link href='vendor/accessibility-menu/night.css' title='contrast' type='text/css' rel='stylesheet' disabled='true'/>";
+        cssText += "<link href='vendor/accessibility-menu/biggest.css' title='textsize' type='text/css' rel='stylesheet' disabled='true'/>";
     } else {
-        cssText += "<link href='http://shakedwebdesign.com/plugins/accessibility-menu/high-contrast.css' title='contrast' type='text/css' rel='stylesheet' disabled='true'/>";
-        cssText += "<link href='http://shakedwebdesign.com/plugins/accessibility-menu/bigger.css' title='textsize' type='text/css' rel='stylesheet' disabled='true'/>";
+        cssText += "<link href='vendor/accessibility-menu/high-contrast.css' title='contrast' type='text/css' rel='stylesheet' disabled='true'/>";
+        cssText += "<link href='vendor/accessibility-menu/bigger.css' title='textsize' type='text/css' rel='stylesheet' disabled='true'/>";
     }
 
 
@@ -267,7 +267,7 @@ function setTextSize(newSize) {
             $("<link/>", {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "http://shakedwebdesign.com/plugins/accessibility-menu/bigger.css",
+                href: "vendor/accessibility-menu/bigger.css",
                 title: "textsize"
             }).appendTo("head");
             $('link[title=textsize]')[0].disabled = false;
@@ -321,7 +321,7 @@ function ToggleUnderlineLinks(mode) {
             $("<link/>", {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "http://shakedwebdesign.com/plugins/accessibility-menu/underline-links.css",
+                href: "vendor/accessibility-menu/underline-links.css",
                 title: "underline"
             }).appendTo("head");
         } else {
@@ -358,7 +358,7 @@ function ToggleLinksYellow(mode) {
             $("<link/>", {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "http://shakedwebdesign.com/plugins/accessibility-menu/yellow-links.css",
+                href: "vendor/accessibility-menu/yellow-links.css",
                 title: "yellow"
             }).appendTo("head");
         } else {
@@ -391,7 +391,7 @@ function ToggleHighContrastMode(mode) {
             $("<link/>", {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "http://shakedwebdesign.com/plugins/accessibility-menu/high-contrast.css",
+                href: "vendor/accessibility-menu/high-contrast.css",
                 title: "contrast"
             }).appendTo("head");
             $('link[title=contrast]')[0].disabled = false;
@@ -423,7 +423,7 @@ function ToggleGrayscaleMode(mode) {
             $("<link/>", {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "http://shakedwebdesign.com/plugins/accessibility-menu/grayscale.css",
+                href: "vendor/accessibility-menu/grayscale.css",
                 title: "grayscale"
             }).appendTo("head");
             $('link[title=grayscale]')[0].disabled = false;
