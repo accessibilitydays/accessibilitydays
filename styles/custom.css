@@ -12,7 +12,13 @@
 }
 
 .organizer-logo {    
-    max-width: 300;       
+    max-width: 300px !important;
+    max-height: 150px !important;
+}
+
+.supporter-logo {    
+    max-width: 200px !important;
+    max-height: 100px !important;
 }
 
 
