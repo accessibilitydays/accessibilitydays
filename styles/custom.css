@@ -21,6 +21,11 @@
     max-height: 100px !important;
 }
 
+.sponsor-silver-logo {    
+    max-width: 200px !important;
+    max-height: 100px !important;
+    border:1px solid silver;
+}
 
 /* *************************************** */
 /* * agenda                              * */
