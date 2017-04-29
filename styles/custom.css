@@ -21,10 +21,20 @@
     max-height: 100px !important;
 }
 
+/* *************************************** */
+/* * agenda                              * */
+/* *************************************** */
+
 .sponsor-silver-logo {    
     max-width: 200px !important;
     max-height: 100px !important;
-    border:1px solid silver;
+    border:2px solid silver;
+}
+
+.sponsor-thanks-label {
+    text-align: center;
+    color: #3366FF;
+    font-weight: bold;
 }
 
 /* *************************************** */
