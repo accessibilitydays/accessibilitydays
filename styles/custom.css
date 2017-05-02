@@ -1,10 +1,26 @@
 /* *************************************** */
+/* * top menu                            * */
+/* *************************************** */
+
+.jumbotron {
+    margin-bottom: 0px !important;    
+    padding-top: 0px !important;    
+    padding-bottom: 0px !important;    
+}
+
+.black {
+    background-color: black !important;
+}
+
+/* *************************************** */
 /* * logos                               * */
 /* *************************************** */
 
+
+
 .mainLogo {     
     padding: 0px;   
-    max-height:120px;
+    max-height:75px;
 }
 
 .hdLogo {    

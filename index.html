@@ -47,76 +47,64 @@
 
 </head>
 
-<body>
+<body class="bodyMarginForStickyMenu">
     <header role="banner">
-        <div class="container navContainer">
 
-            <a class="skip-navigation sr-only sr-only-focusable" href="#page-title">Skip Navigation</a>
-            <div class="navbar-header active">
-                <a class="brand pull-left" href="index.html">
-                    <img src="images/Logos/HD.jpg" class="mainLogo hdLogo img-responsive" alt="HACK-cessibility Days Logo" role="logo">
-                    <span class="sr-only"> selected</span></a>
-                <a class="brand pull-left" href="http://globalaccessibilityawarenessday.org/" target="_blank">
-                    <img src="images/Logos/GAAD.png" class="mainLogo img-responsive" alt="Global Accessibility Awareness Day Logo" role="logo">
-                    <span class="sr-only"> selected</span></a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topNavList" aria-expanded="false">
-                    <span class="adobeBlank" aria-hidden="true">Expand Navigation</span>
-                    <em class="fa fa-bars fa-lg" style="font-family :'FontAwesome' !important">
-                        <span id="expandText" class="sr-only">Expand Navigation</span>
-                    </em>
-                </button>
+        <div class="jumbotron black">
+            <div class="topGrayNavHolder black" id="topMenu">
+                <div class="container navContainer navbar-fixed-top black">
+
+                    <a class="skip-navigation sr-only sr-only-focusable" href="#page-title">Skip Navigation</a>
+                    <div class="navbar-header active">
+                        <a class="brand pull-left" href="index.html">
+                            <img src="images/Logos/HD.jpg" class="mainLogo hdLogo img-responsive" alt="HACK-cessibility Days Logo" role="logo">
+                            <span class="sr-only"> selected</span></a>
+                        <a class="brand pull-left" href="http://globalaccessibilityawarenessday.org/" target="_blank">
+                            <img src="images/Logos/GAAD-white.png" class="mainLogo img-responsive" alt="Global Accessibility Awareness Day Logo" role="logo">
+                            <span class="sr-only"> selected</span></a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topNavList" aria-expanded="false">
+                            <span class="adobeBlank" aria-hidden="true">Expand Navigation</span>
+                            <em class="fa fa-bars fa-lg" style="font-family :'FontAwesome' !important">
+                                <span id="expandText" class="sr-only">Expand Navigation</span>
+                            </em>
+                        </button>
+                    </div>
+                    <nav class="collapse navbar-collapse " aria-label="Main navigation" id="topNavList" aria-expanded="false">
+                        <div class="container">
+                            <ul class="nav navbar-nav navbar-right marginTop40" aria-expanded="false">
+                                <li class="">
+                                    <a href="#about" class="scroll">About</a>
+                                </li>
+                                <li class="">
+                                    <a href="#contents" class="scroll">Contenuti</a>
+                                </li>
+                                <li class="">
+                                    <a href="#agenda-detailed" class="scroll">Agenda</a>
+                                </li>
+                                <li class="">
+                                    <a href="#registration" class="scroll">Iscrizione</a>
+                                </li>
+                                <li class="">
+                                    <a href="#organizers" class="scroll">Organizzatori</a>
+                                </li>
+                                <li class="">
+                                    <a href="#sponsors" class="scroll">Sponsor</a>
+                                </li>
+                                <li class="">
+                                    <a href="#location" class="scroll">Dove</a>
+                                </li>
+                                <li class="">
+                                    <a href="#faq" class="scroll">FAQ</a>
+                                </li>
+                                <li class="">
+                                    <a href="#contact" class="scroll">Contattaci</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-            <nav class="collapse navbar-collapse" aria-label="Main navigation" id="topNavList" aria-expanded="false">
-                <ul class="nav navbar-nav navbar-right marginTop40" aria-expanded="false">
-                    <li class="">
-                        <a href="#about" class="scroll">
-                            About
-                        </a>
-                    </li>
-                     <li class="">
-                        <a href="#contents" class="scroll">
-                            Contenuti
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#agenda-detailed" class="scroll">
-                            Agenda
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#registration" class="scroll">
-                            Iscrizione
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#organizers" class="scroll">
-                            Organizzatori
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#sponsors" class="scroll">
-                            Sponsor
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#location" class="scroll">
-                            Dove
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#faq" class="scroll">
-                            FAQ
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#contact" class="scroll">
-                            Contattaci
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
+        </div>    
 
         <div id="mainImageDiv" role="image slider for visual appeal">
             <div class="slickit">
@@ -125,8 +113,6 @@
                 </div>
             </div>
         </div>
-
-
 
     </header>
 
@@ -401,7 +387,8 @@
                             <div>Abstract in fase di definizione</div>
                             <h3>11:00 Coffee-break</h3>
                             <div></div>
-                            <h3>11:15 Accessibilità nello sviluppo mobile per iOS e Android (Mattia Ducci - EveryWare Lab, Università degli Studi di Milano)
+                            <h3>11:15 Accessibilità nello sviluppo mobile per iOS e Android (Mattia Ducci - EveryWare Lab, Università
+                                degli Studi di Milano)
                                 <br/><span class="agenda-tag"> #dev #ux #mobile #ios #android</span>
                             </h3>
                             <div>Questa presentazione intende illustrare i principi e le tecniche per progettare e sviluppare
@@ -834,7 +821,9 @@
         </section>
     </main>
 
+    <!--
     <a href="#" class="scrollToTop" alt="Scroll To Top"><span class="sr-only">Scroll To Top</span></a>
+    -->
 
     <!-- begin footer-->
     <footer class="footer" role="contentinfo">
@@ -945,8 +934,12 @@
                 var target_offset = $("#" + trgt).offset();
                 var target_top = target_offset.top;
 
+                var topMenu = $('#topMenu');
+                var topMenuHeight = topMenu.height();                
+                target_top -= topMenuHeight + 20;
+
                 //goto that anchor by setting the body scroll top to anchor top
-                $('html, body').animate({ scrollTop: target_top }, 1500, 'easeInSine');
+                $('html, body').animate({ scrollTop: target_top }, 1000, 'easeInSine');
             });
 
             var agendaAccordionOptions = {
