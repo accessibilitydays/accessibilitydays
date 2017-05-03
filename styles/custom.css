@@ -38,8 +38,19 @@
 }
 
 /* *************************************** */
-/* * agenda                              * */
+/* * sponsors                            * */
 /* *************************************** */
+
+.sponsor-container {    
+    text-align: center;
+}
+
+.sponsor-platinum-logo {    
+    max-width: 300px !important;
+    max-height: 150px !important;
+    border:2px solid #E5E4E2;
+    text-align: center;
+}
 
 .sponsor-silver-logo {    
     max-width: 200px !important;
