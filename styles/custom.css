@@ -55,14 +55,14 @@
 .sponsor-platinum-logo {    
     max-width: 300px !important;
     max-height: 150px !important;
-    border:2px solid #E5E4E2;
+    /*border:2px solid #E5E4E2;*/
     text-align: center;
 }
 
 .sponsor-silver-logo {    
     max-width: 200px !important;
     max-height: 100px !important;
-    border:2px solid silver;
+    /*border:2px solid silver;*/
 }
 
 .sponsor-thanks-label {
