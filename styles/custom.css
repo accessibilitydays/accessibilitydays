@@ -41,6 +41,13 @@
 /* * sponsors                            * */
 /* *************************************** */
 
+.sponsor-level-title {
+    text-align: center;
+    font-size: 1.0em;
+    color:gray;
+    padding-bottom: 10px;
+}
+
 .sponsor-container {    
     text-align: center;
 }
