@@ -1,2 +1,2 @@
-# hackcessibilitydays
-Site for HACK-cessibility Days
+# Accessibility Days
+Site for [Accessibility Days](http://accessibilitydays.it) conference 
