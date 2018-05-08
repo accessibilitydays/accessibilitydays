@@ -106,11 +106,12 @@ var A11y = {
                 'aria-hidden': true
             });
             $('.ui-accordion-header-active').next('div').attr('aria-live', 'polite');
-
+/*
             $('.ui-accordion-header').append('<span class="sr-only sr-section-alert"> section is collapsed</span>').children('.ui-accordion-header-icon');
             if ($('html').hasClass('ui-helper-nocustomfonts') && ($('html').hasClass('lt-ie9') || $('html').hasClass('ie9') || $('html').hasClass('ie10') || $('html').hasClass('ie11'))) {
                 $('.ui-accordion-header').append('<span class="sr-only sr-section-alert"> section is collapsed</span>').children('.ui-accordion-header-icon').html('<span class="adobeBlank arrow-icon" aria-hidden="true">Collapsed arrow icon</span>');
-            }
+				
+            }*/
             A11y.accordionHelper();
 
         });
